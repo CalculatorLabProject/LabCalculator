@@ -1,0 +1,110 @@
+/* designed by Mifta Taju UGR/22879/13 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+#calculator {
+  background-color: #ddd9d9;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
+  width: 355px;
+  height: 600px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border: 2px solid #56d424;
+  position: relative;
+}
+
+#display {
+  background-color: #474343;
+  color: white;
+  text-align: right;
+  font-size: 2em;
+  width: 320px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#btnclr {
+  background-color: #ed240d;
+  margin-left: 255px;
+  border: none;
+  border-radius: 10px;
+  width: 63px;
+  height: 80px;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#btnclr:hover {
+  background-color: #c53030;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .btnnum {
+    height: 80px; 
+    background-color: #726f6f;
+    border: none; 
+    border-radius: 10px;
+    color: white; 
+    padding: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btnnum:hover {
+    background-color: #505050;
+  }
+  
+  .btnop {
+    background-color: #f08a1e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px; 
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btnop:hover {
+    background-color: #b05500;
+  }
+
+  .equal {
+    height: 80px;
+    background-color: #17b246;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .equal:hover {
+    background-color: #1c7a31;
+  }
+  
