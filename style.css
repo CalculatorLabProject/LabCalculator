@@ -1,4 +1,5 @@
-/* designed by Mifta Taju UGR/22879/13 */
+/* Designed by: Mifta Taju UGR/22879/13 */
+/* Modified by: Obsa Abdulkadir UGR/22770/13 */
 body {
   display: flex;
   justify-content: center;
@@ -28,30 +29,35 @@ body {
   color: white;
   text-align: right;
   font-size: 2em;
-  width: 320px;
-  height: 70px;
+  width: 330px;
+  height: 50px;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
   position: relative;
 }
 
-#btnclr {
+.clears {
+    display: flex;
+    justify-content: space-between;
+}
+
+#backsp, #btnclr {
   background-color: #ed240d;
-  margin-left: 255px;
+  /* margin-left: 280px; */
   border: none;
   border-radius: 10px;
-  width: 63px;
-  height: 80px;
+  width: 33px;
+  height: 50px;
   color: white;
   padding: 20px;
   margin-bottom: 10px;
-  font-size: 2em;
+  font-size: 20px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-#btnclr:hover {
+#backsp:hover, #btnclr:hover {
   background-color: #c53030;
 }
 
@@ -62,7 +68,7 @@ body {
   }
 
   .btnnum {
-    height: 80px; 
+    height: 50px; 
     background-color: #726f6f;
     border: none; 
     border-radius: 10px;
@@ -93,7 +99,7 @@ body {
   }
 
   .equal {
-    height: 80px;
+    height: 50px;
     background-color: #17b246;
     border: none;
     border-radius: 10px;
